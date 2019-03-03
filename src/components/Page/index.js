@@ -12,7 +12,7 @@ const Page = ({ title, children }) => (
         <title>{title}</title>
     </Helmet>
     <Header />
-    { children }
+        { children }
     <Footer />
   </Fragment>
 )

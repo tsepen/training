@@ -9,7 +9,7 @@ export default () => (
     <Router>
       <Switch>
         <Route exact path="/" component={ Home } />
-        <Route component={ NotFoundPage } />
+        {/* <Route component={ NotFoundPage } /> */}
       </Switch>
     </Router>
 );
