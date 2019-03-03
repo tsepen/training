@@ -1,5 +1,8 @@
 import React from 'react'
+import Page from '../components/Page'
 
 export default () => (
-    <div>Home</div>
+    <Page title="Обучалка - Главная" >
+        Home
+    </Page>
 )
