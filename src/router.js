@@ -6,10 +6,10 @@ import Home from './pages/Home';
 import NotFoundPage from './pages/NotFoundPage';
 
 export default () => (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/" component={ Home } />
-        {/* <Route component={ NotFoundPage } /> */}
+        <Route component={ NotFoundPage } />
       </Switch>
     </Router>
 );
