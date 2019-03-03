@@ -1,14 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Provider } from 'react-redux';
 
+import Header from './components/Header'
+import Footer from './components/Footer'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        Hello PWA
-      </div>
-    );
-  }
-}
+import configureStore from './store';
 
-export default App;
+const store = configureStore();
+
+export default () => (
+  <Provider store={ store }>
+    <Header />
+    <div className="App">
+      Hello
+    </div>
+    <Footer />
+  </Provider>
+);
