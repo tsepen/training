@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://tsepen.github.io/training",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
@@ -12,6 +13,7 @@
     "react-router-dom": "^4.3.1",
     "react-router-redux": "^4.0.8",
     "react-scripts": "2.1.5",
+    "reactstrap": "^7.1.0",
     "redux": "^4.0.1",
     "redux-actions": "^2.6.4",
     "redux-thunk": "^2.3.0"
