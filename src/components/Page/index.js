@@ -12,7 +12,6 @@ const Page = ({ title, children }) => (
       <meta charSet="utf-8" />
       <title>{title}</title>
     </Helmet>
-
     {children}
     <Footer />
   </Fragment>
