@@ -8,11 +8,11 @@ import Footer from '../Footer'
 const Page = ({ title, children }) => (
   <Fragment>
     <Helmet>
-        <meta charSet="utf-8" />
-        <title>{title}</title>
+      <meta charSet="utf-8" />
+      <title>{title}</title>
     </Helmet>
     <Header />
-        { children }
+    { children }
     <Footer />
   </Fragment>
 )
