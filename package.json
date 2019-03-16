@@ -143,7 +143,7 @@
     "prettier": "^1.16.4"
   },
   "lint-staged": {
-    "src/*.{js, jsx}": [
+    "*.{js, jsx}": [
       "node_modules/.bin/eslint --max-warnings=0",
       "prettier --write",
       "git add"
