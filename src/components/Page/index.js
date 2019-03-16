@@ -12,8 +12,9 @@ const Page = ({ title, children }) => (
       <meta charSet="utf-8" />
       <title>{title}</title>
     </Helmet>
-    <Header />
+
     {children}
+    <Footer />
   </Fragment>
 )
 
