@@ -90,7 +90,7 @@ export default () => {
                   {question ? question.text : "Сборка примера"}
                 </InputGroupText>
               </InputGroupAddon>
-              <Input value={answer} onChange={onChange} />
+              <Input value={answer} type="number" onChange={onChange} />
             </InputGroup>
 
             <Button color="primary" size="lg" block onClick={sendAnswer}>
