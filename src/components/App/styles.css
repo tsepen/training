@@ -1,0 +1,15 @@
+.app {
+  position: relative;
+  top: 50vh;
+  transform: translateY(-50%);
+}
+
+button {
+  margin-top: 50px !important;
+}
+
+img {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
